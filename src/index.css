@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background-color: #fafafa;
+    color: rgb(34, 34, 34);
+    font-family: "Inter", sans-serif;
+}
+
+#header {
+    background-color: white;
+    margin: 0;
+    box-shadow: 0 0 5px rgb(119, 119, 119);
+    padding: 20px;
+    text-align: center;
+}
+
+#header>img {
+    width: 50px;
+}
+
+#header>span {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+
+/* MAIN COMPONENT STYLES */
+
+#intro-text {
+    text-align: center;
+    font-weight: 250;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+#add-ingredient-form {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#input-el {
+    padding: 14px;
+    width: 400px;
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+#add-ingredient-btn {
+    padding: 16px;
+    color: white;
+    background-color: rgb(34, 34, 34);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#add-ingredient-btn:hover {
+    box-shadow: 0 0 5px black;
+}
+
+.ingredients-list {
+    margin: 10px;
+}
+
+.get-recipe-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e7e7e7;
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#get-recipe-btn {
+    background-color: rgb(235, 103, 103);
+    border: none;
+    height: 50px;
+    cursor: pointer;
+}
